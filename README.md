@@ -1,5 +1,4 @@
-# Masurca in Docker
-![Build Badge](https://github.com/aakashsur/docker-masurca/actions/workflows/continuous-integration.yml/badge.svg)
+# P RNA Scaffolder in Docker
 
 [P RNA Scaffolder](https://github.com/CAFS-bioinformatics/P_RNA_scaffolder) is a RNA-seq based scaffolding algorithm. Since it requires bioperl I have wrapped the project in a container. 
 
