@@ -19,7 +19,7 @@ docker run \
 
 # Details
 
-The `masurca` command has been placed in $PATH. Easiest way to run is to have everything in $PWD, i.e. config file, and the fastq files (hard link them if you don't want to move or copy them). The current local directory then gets mounted to the /root/results/ directory of the container. 
+The `p_rna_scaffolder` command has been placed in $PATH.
 
 For running in an HPC setting, where singularity is often the choice of containerization - 
 
@@ -33,10 +33,4 @@ singularity run
   masurca_latest.sif \
   masurca \
   config.txt
-  
-singularity run 
-  --bind $PWD:/root/results \
-  --home /root/results \
-  masurca_latest.sif \
-  ./assemble.sh
 ```
